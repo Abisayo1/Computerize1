@@ -1,21 +1,36 @@
 <resources>
-    <string name="app_name">cSimplify</string>
+    <string name="app_name">eNursing</string>
     <string name="open">Open</string>
     <string name="close">Close</string>
-    <string name="definition">Flowchart is a graphical representation of an algorithm. Programmers often use it as a program-planning tool to solve a problem. It makes use of symbols which are connected among them to indicate the flow of information and processing.  <br /> <br /> The process of drawing a flowchart for an algorithm is known as “flowcharting”
-    \n\nUsing a flowchart has a variety of benefits:\n\n
-
-- It helps to clarify complex processes.\n\n
-- It identifies steps that do not add value to the internal or external customer, including delays; needless storage and transportation; unnecessary work, duplication, and added expense; breakdowns in communication.\n\n
-- It helps team members gain a shared understanding of the process and use this knowledge to collect data, identify problems, focus discussions, and identify resources.\n\n
-- It serves as a basis for designing new processes.</string>
-    <string name="gdg_description_terminal"><b>1. Terminal:</b> The oval symbol indicates Start, Stop and Halt in a program’s logic flow. A pause/halt is generally used in a program logic under some error conditions. Terminal is the first and last symbols in the flowchart.</string>
+    <string name="definition">History of nursing can be viewed from 5 perspectives and how they have influenced nursing practice in the past and now.\n\n
+Women’s roles and Status\n\n
+- Traditional female role of being a daughter, sister, wife and mother has always included the care and nurturing of other family members including infants and children\n\n
+- It can be said that nursing have its roots in the “home”\n\n
+- Women were meant to be subservient and dependent, such that they can be called upon to care for others in the community.\n\n
+- Hence, traditional nursing role includes providing humanistic caring, nurturing, comforting and supporting\n\n
+</string>
+    <string name="gdg_description_terminal">Religion played a significant role in the development of nursing through the need to practice biblical injunctions such as benevolence.\n\n
+<b>-</b> Fabiola, a wealthy matron of the Roman Empire provided houses of care and healing for the poor, sick and the homeless.\n\n
+<b>-</b> The crusades (the formation of several orders of knights) provided nursing care and injured comrades; built hospitals and also cared for people with leprosy, syphilis and chronic skin conditions.\n\n
+<b>-</b> The deaconess groups of the Roman Empire during the third and fourth centuries, though suppressed during the middle Ages by Western churches, resurfaced.\n\n
+<b>-</b> In 1836, Theodore Fliedner reinstituted the order of deaconesses. A small hospital and training school was opened in Kaiserswerth, Germany where Florence Nightingale received her nursing training.\n\n
+<b>-</b> Religious values such as self-denial, spiritual calling, devotion to duty and hard work dominated the practice of nursing, which often times resulted in exploitation and few monetary rewards.
+</string>
     <string name="input_output"><b>2. Input/Output:</b> A parallelogram denotes any function of input/output type. Program instructions that take input from input devices and display output on output devices are indicated with parallelogram in a flowchart. "</string>
     <string name="process"><b>3. Processing:</b> A box represents arithmetic instructions. All arithmetic processes such as adding, subtracting, multiplication and division are indicated by action or process symbol.</string>
     <string name="decision"><b>4. Decision:</b> Diamond symbol represents a decision point. Decision based operations such as yes/no question or true/false are indicated by diamond in flowchart. "</string>
     <string name="connectors"><b>5. Connectors:</b> Whenever flowchart becomes complex or it spreads over more than one page, it is useful to use connectors to avoid any confusions. It is represented by a circle. "</string>
     <string name="flowline"> <b> 6. Flow lines:</b> Flow lines indicate the exact sequence in which instructions are executed. Arrows represent the direction of flow of control and relationship among different symbols of flowchart. "</string>
-    <string name="rules_flow">A flowchart is a graphical representation of an algorithm. it should follow some rules while creating a flowchart \n\n<b>Rule 1:</b> Flowchart opening statement must be ‘start’ keyword. \n\n<b>Rule 2:</b> Flowchart ending statement must be ‘end’ keyword. \n\n<b>Rule 3:</b> All symbols in the flowchart must be connected with an arrow line. \n\n<b>Rule 4:</b> The decision symbol in the flowchart cannot be associated with the arrow line.</string>
+    <string name="rules_flow"> <b>-</b> In history, wars necessitated the need for nurses.\n\n
+<b>-</b>The Crimean war of 1854-1856 was not an exception.\n\n
+<b>-</b>There was a gross inadequacy in the care given to wounded soldiers.\n\n
+<b>-</b>Florence Nightingale played a significant role in solving the problem\n\n
+<b>-</b>On the delegation of Sir Sydney Herbert of the British War Department, she recruited nurses to provide care to the sick and injured in the Crimea.\n\n
+<b>-</b>They transformed the military hospitals by setting up sanitation practices.\n\n
+<b>-</b>The American Civil War of 1861-1865 had Hariet Tubman and Sojourner Truth providing care and safety to slaves on the run.\n\n
+<b>-</b>Mother Biekerdyke and Clara Barton gave care to wounded and dying soldiers on the battlefield.\n\n
+<b>-</b>Walt Whitman and Louisa May Alcott volunteered to give care to the injured soldiers in military hospitals.
+</string>
     <string name="advantages_flow"><b>1.</b> Flowcharts are a better way of communicating the logic of the system. \n\n<b>2.</b> Flowcharts act as a guide for blueprint during program designed. \n\n<b>3.</b> Flowcharts help in debugging process. \n\n<b>4.</b> With the help of flowcharts programs can be easily analyzed. \n\n<b>5.</b> It provides better documentation. \n\n<b>6.</b> Flowcharts serve as a good proper documentation. \n\n<b>7.</b> Easy to trace errors in the software. \n\n<b>8.</b> Easy to understand. \n\n<b>9.</b> The flowchart can be reused for inconvenience in the future. \n\n<b>10.</b> It helps to provide correct logic.</string>
     <string name="disadvantages_flow"><b>1.</b> It is difficult to draw flowcharts for large and complex programs. \n\n<b>2.</b> There is no standard to determine the amount of detail. \n\n<b>3.</b> Difficult to reproduce the flowcharts. \n\n<b>4.</b> It is very difficult to modify the Flowchart. \n\n<b>5.</b> Making a flowchart is costly. \n\n<b>6.</b> Some developer thinks that it is waste of time. \n\n<b>7.</b> It makes software processes low. \n\n<b>8.</b> If changes are done in software, then the flowchart must be redrawn\n\n</string>
     <string name="algo_def">The word Algorithm means ”A  set of rules to be followed in calculations or other problem-solving operations” Or ”A procedure for solving a mathematical problem in a finite number of steps that frequently by recursive operations “.   \n\nTherefore Algorithm refers to a sequence of finite steps to solve a particular problem.</string>

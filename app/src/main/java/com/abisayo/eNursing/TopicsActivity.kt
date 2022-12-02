@@ -37,8 +37,16 @@ class TopicsActivity : AppCompatActivity() {
 
         topicList = ArrayList()
 
-        topicList.add(Topic(0, "FlowChart", "" ))
-        topicList.add(Topic(0, "Algorithms", "" ))
+        topicList.add(Topic(0, "History of Nursing", "" ))
+        topicList.add(Topic(0, "Trends in Nursing", "" ))
+        topicList.add(Topic(0, "Professional Standards in Nursing Practice", "" ))
+        topicList.add(Topic(0, "Roles and Functions of a Nurse", "" ))
+        topicList.add(Topic(0, "Health Assessment", "" ))
+        topicList.add(Topic(0, "Admission Process", "" ))
+        topicList.add(Topic(0, "Discharge Process", "" ))
+        topicList.add(Topic(0, "Referral Process", "" ))
+        topicList.add(Topic(0, "Transfer Process", "" ))
+        topicList.add(Topic(0, "Communication SKills", "" ))
 
 
 
@@ -49,16 +57,16 @@ class TopicsActivity : AppCompatActivity() {
         topicAdapter.setOnItemClickListener(object : TopicAdapter.onItemClickListener{
             override fun onItemClick(position: Int) {
                 if (position == 0) {
-                    val intent = Intent(this@TopicsActivity, FlowSubTopicsActivity::class.java)
+                    val intent = Intent(this@TopicsActivity, HistoryNurseActivity::class.java)
                     startActivity(intent)
 
                 }
 
-                if (position == 1) {
-                    val intent = Intent(this@TopicsActivity, AlgorithmSubtopicsActivity::class.java)
-                    startActivity(intent)
-
-                }
+//                if (position == 1) {
+//                    val intent = Intent(this@TopicsActivity, AlgorithmSubtopicsActivity::class.java)
+//                    startActivity(intent)
+//
+//                }
             }
 
         })

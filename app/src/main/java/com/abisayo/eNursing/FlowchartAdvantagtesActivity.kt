@@ -54,10 +54,10 @@ class FlowchartAdvantagtesActivity : AppCompatActivity() {
                 R.id.flow -> {intent = Intent(this, Learn::class.java)
                     startActivity(intent)
                 }
-                R.id.element -> {intent = Intent(this, FlowChartElelmetsActivity::class.java)
+                R.id.element -> {intent = Intent(this, ReligionActivity::class.java)
                     startActivity(intent)
                 }
-                R.id.rules -> {intent = Intent(this, FlowchartRulesActivity::class.java)
+                R.id.rules -> {intent = Intent(this, WarActivity::class.java)
                     startActivity(intent)
                 }
                 R.id.adv -> scrollToView(binding.scroll, binding.adv)

@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/csimplify_icon1"
+        android:icon="@drawable/e_nursing"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/csimplify_icon1"
+        android:roundIcon="@drawable/e_nursing"
         android:supportsRtl="true"
         android:theme="@style/Theme.Computerize1">
         <activity
@@ -34,16 +34,16 @@
             android:name="com.abisayo.eNursing.FlowchartAdvantagtesActivity"
             android:exported="false" />
         <activity
-            android:name="com.abisayo.eNursing.FlowchartRulesActivity"
+            android:name="com.abisayo.eNursing.WarActivity"
             android:exported="false" />
         <activity
-            android:name="com.abisayo.eNursing.FlowChartElelmetsActivity"
+            android:name="com.abisayo.eNursing.ReligionActivity"
             android:exported="false" />
         <activity
             android:name="com.abisayo.eNursing.AlgorithmTypesActivity"
             android:exported="false" />
         <activity
-            android:name="com.abisayo.eNursing.FlowSubTopicsActivity"
+            android:name="com.abisayo.eNursing.HistoryNurseActivity"
             android:exported="false" />
         <activity
             android:name="com.abisayo.eNursing.SplashScreenActivity"

@@ -29,8 +29,8 @@ tools:context=".Learn">
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:src="@drawable/flowchart"
-            tools:srcCompat="@drawable/flowchart" />
+            android:src="@drawable/history_of_nursing"
+            tools:srcCompat="@drawable/history_of_nursing" />
 
         <TextView
             android:id="@+id/flow"
@@ -38,7 +38,7 @@ tools:context=".Learn">
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:textSize="20sp"
-            android:text="FLOWCHARTS"
+            android:text="History of Nursing"
             android:layout_marginLeft="15dp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -83,7 +83,7 @@ tools:context=".Learn">
 <com.google.android.material.navigation.NavigationView
     android:id="@+id/navView"
     app:headerLayout="@layout/nav_header"
-    app:menu="@menu/nav_menu"
+    app:menu="@menu/history_nursing"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:layout_gravity="start"

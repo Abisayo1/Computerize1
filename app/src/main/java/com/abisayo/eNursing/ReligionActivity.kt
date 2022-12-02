@@ -8,12 +8,12 @@ import android.view.*
 import android.widget.ScrollView
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
-import com.abisayo.eNursing.databinding.ActivityFlowChartElelmetsBinding
+import com.abisayo.eNursing.databinding.ActivityReligionBinding
 import com.google.android.material.navigation.NavigationView
 
 
-class FlowChartElelmetsActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityFlowChartElelmetsBinding
+class ReligionActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityReligionBinding
     lateinit private var toggle: ActionBarDrawerToggle
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,11 +22,11 @@ class FlowChartElelmetsActivity : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
-        binding = ActivityFlowChartElelmetsBinding.inflate(layoutInflater)
+        binding = ActivityReligionBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.button.setOnClickListener {
-            val intent = Intent(this, FlowchartRulesActivity::class.java)
+            val intent = Intent(this, WarActivity::class.java)
             startActivity(intent)
         }
 
@@ -55,7 +55,7 @@ class FlowChartElelmetsActivity : AppCompatActivity() {
                     startActivity(intent)
                 }
                 R.id.element -> scrollToView(binding.scroll, binding.elements)
-                R.id.rules -> {intent = Intent(this, FlowchartRulesActivity::class.java)
+                R.id.rules -> {intent = Intent(this, WarActivity::class.java)
                     startActivity(intent)
                 }
                 R.id.adv -> {intent = Intent(this, FlowchartAdvantagtesActivity::class.java)

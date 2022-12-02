@@ -54,27 +54,28 @@ class SubTopicsAdapter(private val topicList:ArrayList<Topic>)
         holder.imageView.setImageResource(topic.image)
         holder.textView.text = topic.name
         holder.detail.text = topic.details
+        holder.imageView.setImageResource(drawable.history_of_nursing)
 
         if (position == 0) {
-            holder.imageView.setImageResource(drawable.flowchart)
+            holder.imageView.setImageResource(drawable.history_of_nursing)
         }
         if (position == 1) {
             holder.layout.setBackgroundColor(Color.parseColor("#da3a3a"))
-            holder.imageView.setImageResource(drawable.flowchart)
+            holder.imageView.setImageResource(drawable.history_of_nursing)
         } else if (position == 2) {
             holder.layout.setBackgroundColor(Color.parseColor("#6CD0FF"))
-            holder.imageView.setImageResource(drawable.flowchart)
+            holder.imageView.setImageResource(drawable.history_of_nursing)
         } else if (position == 3) {
             holder.layout.setBackgroundColor(Color.parseColor("#801155"))
-            holder.imageView.setImageResource(drawable.flowchart)
+            holder.imageView.setImageResource(drawable.history_of_nursing)
 
         } else if (position == 4) {
             holder.layout.setBackgroundColor(Color.parseColor("#9A6AFF"))
-            holder.imageView.setImageResource(drawable.flowchart)
+            holder.imageView.setImageResource(drawable.history_of_nursing)
 
         } else if (position == 5) {
             holder.layout.setBackgroundColor(Color.parseColor("#1E2029"))
-            holder.imageView.setImageResource(drawable.flowchart)
+            holder.imageView.setImageResource(drawable.history_of_nursing)
 
         }
     }

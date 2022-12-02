@@ -45,7 +45,7 @@
                     android:text="Algorithm"
                     android:textAlignment="center"
                     android:textColor="#ffff"
-                    android:textSize="28sp"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -76,7 +76,7 @@
                     android:layout_toEndOf="@+id/detail"
                     android:layout_toRightOf="@+id/detail"
                     android:maxHeight="100dp"
-                    android:src="@drawable/flowchart" />
+                    android:src="@drawable/history_of_nursing" />
 
 
             </RelativeLayout>
