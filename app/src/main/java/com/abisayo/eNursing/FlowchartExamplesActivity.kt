@@ -59,13 +59,13 @@ class FlowchartExamplesActivity : AppCompatActivity() {
                 }
                 R.id.rules -> {intent = Intent(this, WarActivity::class.java)
                     startActivity(intent)
-                }
-                R.id.adv -> {intent = Intent(this, FlowchartAdvantagtesActivity::class.java)
-                    startActivity(intent)
-                }
-                R.id.dis -> {intent = Intent(this, FlowchartDisadvantagesActivity::class.java)
-                    startActivity(intent)
-
+//                }
+//                R.id.adv -> {intent = Intent(this, FlowchartAdvantagtesActivity::class.java)
+//                    startActivity(intent)
+//                }
+//                R.id.dis -> {intent = Intent(this, FlowchartDisadvantagesActivity::class.java)
+//                    startActivity(intent)
+//
                 }
 
                 R.id.quiz ->  {intent = Intent(this, Quiz::class.java)
@@ -73,7 +73,7 @@ class FlowchartExamplesActivity : AppCompatActivity() {
 
                 }
 
-                R.id.flow_example -> scrollToView(binding.scroll, binding.example)
+                //R.id.flow_example -> scrollToView(binding.scroll, binding.example)
 
 
             }

@@ -64,21 +64,21 @@ class HistoryNurseActivity : AppCompatActivity() {
                 startActivity(intent)
 
             }
-            if (position == 3) {
-                val intent = Intent(this@HistoryNurseActivity, FlowchartAdvantagtesActivity::class.java)
-                startActivity(intent)
-
-            }
-            if (position == 4) {
-                val intent = Intent(this@HistoryNurseActivity, FlowchartDisadvantagesActivity::class.java)
-                startActivity(intent)
-
-            }
-            if (position == 5) {
-                val intent = Intent(this@HistoryNurseActivity, FlowchartExamplesActivity::class.java)
-                startActivity(intent)
-
-            }
+//            if (position == 3) {
+//                val intent = Intent(this@HistoryNurseActivity, FlowchartAdvantagtesActivity::class.java)
+//                startActivity(intent)
+//
+//            }
+//            if (position == 4) {
+//                val intent = Intent(this@HistoryNurseActivity, FlowchartDisadvantagesActivity::class.java)
+//                startActivity(intent)
+//
+//            }
+//            if (position == 5) {
+//                val intent = Intent(this@HistoryNurseActivity, FlowchartExamplesActivity::class.java)
+//                startActivity(intent)
+//
+//            }
         }
 
     })

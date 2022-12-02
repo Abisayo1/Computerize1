@@ -31,19 +31,19 @@
                 android:id="@+id/rules"
                 android:title="War"/>
 
-            <item
-                android:id="@+id/adv"
-                android:title="Societal Attitudes"/>
+<!--            <item-->
+<!--                android:id="@+id/adv"-->
+<!--                android:title="Societal Attitudes"/>-->
 
-            <item
-                android:id="@+id/dis"
-                android:title="Nursing Leaders"/>
-            <item
-                android:id="@+id/flow_example"
-                android:title="Men in Nursing"/>
-            <item
-                android:id="@+id/videos"
-                android:title="Videos to Watch"/>
+<!--            <item-->
+<!--                android:id="@+id/dis"-->
+<!--                android:title="Nursing Leaders"/>-->
+<!--            <item-->
+<!--                android:id="@+id/flow_example"-->
+<!--                android:title="Men in Nursing"/>-->
+<!--            <item-->
+<!--                android:id="@+id/videos"-->
+<!--                android:title="Videos to Watch"/>-->
 
         </menu>
 

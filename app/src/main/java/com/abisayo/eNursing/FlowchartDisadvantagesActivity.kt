@@ -60,20 +60,20 @@ class FlowchartDisadvantagesActivity : AppCompatActivity() {
                 R.id.rules -> {intent = Intent(this, WarActivity::class.java)
                     startActivity(intent)
                 }
-                R.id.adv -> {intent = Intent(this, FlowchartAdvantagtesActivity::class.java)
-                    startActivity(intent)
-                }
-                R.id.dis -> scrollToView(binding.scroll, binding.dis)
-
-                R.id.quiz ->  {intent = Intent(this, Quiz::class.java)
-                    startActivity(intent)
-
-                }
-
-                R.id.flow_example ->  {intent = Intent(this, FlowchartExamplesActivity::class.java)
-                    startActivity(intent)
-
-                }
+//                R.id.adv -> {intent = Intent(this, FlowchartAdvantagtesActivity::class.java)
+//                    startActivity(intent)
+//                }
+//                R.id.dis -> scrollToView(binding.scroll, binding.dis)
+//
+//                R.id.quiz ->  {intent = Intent(this, Quiz::class.java)
+//                    startActivity(intent)
+//
+//                }
+//
+//                R.id.flow_example ->  {intent = Intent(this, FlowchartExamplesActivity::class.java)
+//                    startActivity(intent)
+//
+//                }
 
 
             }

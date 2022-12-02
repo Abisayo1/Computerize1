@@ -56,23 +56,23 @@ class WarActivity : AppCompatActivity() {
                 R.id.element -> {intent = Intent(this, ReligionActivity::class.java)
                     startActivity(intent)
                 }
-                R.id.rules -> scrollToView(binding.scroll, binding.rulesFlowList)
-                R.id.adv -> {intent = Intent(this, FlowchartAdvantagtesActivity::class.java)
-                    startActivity(intent)
-                }
-                R.id.dis -> {intent = Intent(this, FlowchartDisadvantagesActivity::class.java)
-                    startActivity(intent)
-                }
-
-                R.id.quiz ->  {intent = Intent(this, Quiz::class.java)
-                    startActivity(intent)
-
-                }
-
-                R.id.flow_example ->  {intent = Intent(this, FlowchartExamplesActivity::class.java)
-                    startActivity(intent)
-
-                }
+//                R.id.rules -> scrollToView(binding.scroll, binding.rulesFlowList)
+//                R.id.adv -> {intent = Intent(this, FlowchartAdvantagtesActivity::class.java)
+//                    startActivity(intent)
+//                }
+//                R.id.dis -> {intent = Intent(this, FlowchartDisadvantagesActivity::class.java)
+//                    startActivity(intent)
+//                }
+//
+//                R.id.quiz ->  {intent = Intent(this, Quiz::class.java)
+//                    startActivity(intent)
+//
+//                }
+//
+//                R.id.flow_example ->  {intent = Intent(this, FlowchartExamplesActivity::class.java)
+//                    startActivity(intent)
+//
+//                }
 
 
             }
