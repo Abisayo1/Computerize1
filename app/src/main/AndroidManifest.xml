@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.abisayo.computerize1">
+    package="com.abisayo.eNursing">
 
     <application
         android:allowBackup="true"
@@ -10,43 +10,43 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Computerize1">
         <activity
-            android:name=".AlgorithmExamplesActivity"
+            android:name="com.abisayo.eNursing.AlgorithmExamplesActivity"
             android:exported="false" />
         <activity
-            android:name=".AlgorithmCharactActivity"
+            android:name="com.abisayo.eNursing.AlgorithmCharactActivity"
             android:exported="false" />
         <activity
-            android:name=".AlgorithmStepsActivity"
+            android:name="com.abisayo.eNursing.AlgorithmStepsActivity"
             android:exported="false" />
         <activity
-            android:name=".AlgorithmImportanceActivity"
+            android:name="com.abisayo.eNursing.AlgorithmImportanceActivity"
             android:exported="false" />
         <activity
-            android:name=".AlgorithmSubtopicsActivity"
+            android:name="com.abisayo.eNursing.AlgorithmSubtopicsActivity"
             android:exported="false" />
         <activity
-            android:name=".FlowchartExamplesActivity"
+            android:name="com.abisayo.eNursing.FlowchartExamplesActivity"
             android:exported="false" />
         <activity
-            android:name=".FlowchartDisadvantagesActivity"
+            android:name="com.abisayo.eNursing.FlowchartDisadvantagesActivity"
             android:exported="false" />
         <activity
-            android:name=".FlowchartAdvantagtesActivity"
+            android:name="com.abisayo.eNursing.FlowchartAdvantagtesActivity"
             android:exported="false" />
         <activity
-            android:name=".FlowchartRulesActivity"
+            android:name="com.abisayo.eNursing.FlowchartRulesActivity"
             android:exported="false" />
         <activity
-            android:name=".FlowChartElelmetsActivity"
+            android:name="com.abisayo.eNursing.FlowChartElelmetsActivity"
             android:exported="false" />
         <activity
-            android:name=".AlgorithmTypesActivity"
+            android:name="com.abisayo.eNursing.AlgorithmTypesActivity"
             android:exported="false" />
         <activity
-            android:name=".FlowSubTopicsActivity"
+            android:name="com.abisayo.eNursing.FlowSubTopicsActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name="com.abisayo.eNursing.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -55,34 +55,34 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AlgoQuizActivity"
+            android:name="com.abisayo.eNursing.AlgoQuizActivity"
             android:exported="false" />
         <activity
-            android:name=".AlgorithmActivity"
+            android:name="com.abisayo.eNursing.AlgorithmActivity"
             android:exported="false" />
         <activity
-            android:name=".Result"
+            android:name="com.abisayo.eNursing.Result"
             android:exported="false" />
         <activity
-            android:name=".Quiz"
+            android:name="com.abisayo.eNursing.Quiz"
             android:exported="false" />
         <activity
-            android:name=".EditProfile"
+            android:name="com.abisayo.eNursing.EditProfile"
             android:exported="false" />
         <activity
-            android:name=".Profile"
+            android:name="com.abisayo.eNursing.Profile"
             android:exported="false" />
         <activity
-            android:name=".Learn"
+            android:name="com.abisayo.eNursing.Learn"
             android:exported="false" />
         <activity
-            android:name=".TopicsActivity"
+            android:name="com.abisayo.eNursing.TopicsActivity"
             android:exported="false" />
         <activity
-            android:name=".CreateAccount"
+            android:name="com.abisayo.eNursing.CreateAccount"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.abisayo.eNursing.MainActivity"
             android:exported="true" />
 
         <meta-data
